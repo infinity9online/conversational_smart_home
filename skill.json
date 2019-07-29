@@ -1,0 +1,78 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my conversational smart home",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "distance",
+                    "slots": [],
+                    "samples": [
+                        "how far am i",
+                        "tell me the distance of an object"
+                    ]
+                },
+                {
+                    "name": "presence",
+                    "slots": [],
+                    "samples": [
+                        "is someone at the door",
+                        "is anyone at the door"
+                    ]
+                },
+                {
+                    "name": "gas",
+                    "slots": [],
+                    "samples": [
+                        "it smells odd here",
+                        "is there a gas leakage in my house "
+                    ]
+                },
+                {
+                    "name": "light",
+                    "slots": [],
+                    "samples": [
+                        "how is the light intensity here",
+                        "tell me the intensity of light here"
+                    ]
+                },
+                {
+                    "name": "ledon",
+                    "slots": [],
+                    "samples": [
+                        "plz turn on the light",
+                        "turn on the light "
+                    ]
+                },
+                {
+                    "name": "ledoff",
+                    "slots": [],
+                    "samples": [
+                        "turn off the light ",
+                        "plz turn off the led"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
